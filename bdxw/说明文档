@@ -1,0 +1,16 @@
+说明文档：
+bdxw
+----manage
+  |----css(放置样式文件在style中)
+  |----images
+  |----js（login是登录界面的js文件，manage是主后台文件的登录界面）
+  |----php（add增加，delete是删除的php，modify是改动的PHP，select是查找的PHP，db_con|        fig是所有PHP文件的配置文件
+  |----login（登录界面 用户名admin，密码admin）
+  |----manage（后台主界面，里面可以进行新闻的增删改查）
+----news
+  |----css(放置样式文件在style中)
+  |----img（图片文件）
+  |----js（main是新闻页面的js文件）
+  |----php（get_news是新闻页面从该数据库里面获得新闻的PHP文件）
+  |----index（前端新闻页面的页面）
+----bd_news.sql（这个是数据库文件）
